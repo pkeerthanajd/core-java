@@ -11,7 +11,7 @@ public class twodarray {
         int num[][] = new int[a][b];
         for (int i = 0; i < num.length; i++) {
             for (int j = 0; j < num[i].length; j++) {
-                num[i][j] = (int) (Math.random() * 10);
+                num[i][j] = (int) (Math.random() * 10); //We can also multiply with 100 but it gives 2digit o/p
             }
         }
         for (int i = 0; i < num.length; i++) {
