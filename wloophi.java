@@ -14,6 +14,7 @@ public class wloophi
             }
         }
         System.out.println("bye "+i);
+        System.out.println("Tata "+j);
     }
     
 }
